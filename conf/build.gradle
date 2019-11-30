@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+
+ext.moduleName = 'data.conf'
+
+dependencies {
+    implementation(
+            project(':usecase'),
+            project(':domain'),
+            project(':controller'),
+            project(':gateways'),
+            project(':repository')
+
+    )
+}

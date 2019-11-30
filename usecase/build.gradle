@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+
+ext.moduleName = 'data.usecase'
+dependencies {
+    implementation(
+            project(':domain')
+    )
+    implementation(
+            group: 'com.alibaba', name: 'fastjson', version: '1.2.58'
+    )
+        annotationProcessor 'org.projectlombok:lombok:1.18.8'
+        compileOnly 'org.projectlombok:lombok:1.18.8'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.8'
+        testCompileOnly 'org.projectlombok:lombok:1.18.8'
+
+}

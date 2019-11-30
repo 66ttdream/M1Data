@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/GenerateTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/SynHistoryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/TimerSynDataControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/SynHistoryDataWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgGateways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserCumulateGateways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserSummaryGateways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/WxDataGateways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/AccessTokenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/WxDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/infrastructure/src/test/java/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/syndata/SynDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/conf/conf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/SpringConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/SynHistoryDataParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveSynParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerCreateTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerRunSynTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerRunTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/AccessTokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/AccessTokenGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ISynDataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/validator/ValidationParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/SynConfController.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/SynConfController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/SynParameterWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/SynParameterWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/communication/HttpsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/communication/MyX509TrustManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/conf/WxConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/conf/WxConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/TokenGateways.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/main/util/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/main/util/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/libs/infrastructure.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/libs/infrastructure.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/util/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/util/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/db/Databases.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/db/Databases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/SynParameterDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/SynParameterDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/port/ISynParameterDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/port/ISynParameterDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/synparameter/SynPerameterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/synparameter/SynPerameterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/test/java/SynParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/SynParameterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/test/java/module-info.test" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/module-info.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/StartSynController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/StartSynController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/AccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/AccessToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/SynConf$SynConfBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/SynConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/data/entity/AccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/AccessToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/data/entity/SynParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/SynParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/TokenException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/gettoken/GetAccessToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/gettoken/GetAccessToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/IHttpsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/SynConfRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/SynParmeterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/SynParmeterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/geaccesstoken/GetAccessToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/TokenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/gettoken/GetAccessToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/gettoken/GetAccessToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IHttpsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/SynConfRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/SynParmeterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/SynParmeterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/geaccesstoken/GetAccessToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/module-info.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testmysql [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testmysql [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="testmysql [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="data: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/adapter/gateways">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="module-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SVLEivkxWZw7vanWSMW0A06a6v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.34264705" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaprojectdata\adapter\gateways\src\test\java" />
+      <recent name="E:\ideaprojectdata\adapter\repository\src\test\java" />
+      <recent name="E:\ideaprojectdata\domain\src\main\java\data\vo\id" />
+      <recent name="E:\ideaprojectdata\domain\src\main\java\data\entity" />
+      <recent name="E:\ideaprojectdata\adapter\repository" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
+    <configuration name="AccessTokenTest.getAccessToken" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;AccessTokenTest.getAccessToken&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":gateways:cleanTest" />
+            <option value=":gateways:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TimeTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TimeTest.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":infrastructure:cleanTest" />
+            <option value=":infrastructure:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WxDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;WxDataTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":gateways:cleanTest" />
+            <option value=":gateways:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="WxDataTest.Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;WxDataTest.Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":gateways:cleanTest" />
+            <option value=":gateways:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ideaprojectdata [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Data.spring-app.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="data.spring.RunApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Data" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61337" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61347" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.AccessTokenTest.getAccessToken" />
+      <item itemvalue="Gradle.WxDataTest.Test" />
+      <item itemvalue="Gradle.TimeTest.test" />
+      <item itemvalue="Gradle.WxDataTest" />
+      <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+      <item itemvalue="Spring Boot.RunApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+        <item itemvalue="Gradle.WxDataTest.Test" />
+        <item itemvalue="Gradle.WxDataTest" />
+        <item itemvalue="Gradle.TimeTest.test" />
+        <item itemvalue="Gradle.AccessTokenTest.getAccessToken" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.30533808" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e01deff" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6e01deff" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@253033cb" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="" />
+      <created>1571643706629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571643706629</updated>
+      <workItem from="1571643731499" duration="6337000" />
+      <workItem from="1571650912427" duration="1752000" />
+      <workItem from="1571706970926" duration="9913000" />
+      <workItem from="1571792382490" duration="2562000" />
+      <workItem from="1571881171781" duration="1272000" />
+      <workItem from="1571965564500" duration="1219000" />
+      <workItem from="1572407747533" duration="1840000" />
+      <workItem from="1572487795983" duration="2452000" />
+      <workItem from="1572571613733" duration="1965000" />
+      <workItem from="1572921836403" duration="1883000" />
+      <workItem from="1573010551713" duration="1735000" />
+      <workItem from="1573089530959" duration="1755000" />
+      <workItem from="1573783060653" duration="87000" />
+      <workItem from="1574151586343" duration="268000" />
+      <workItem from="1574151933314" duration="443000" />
+      <workItem from="1574156519213" duration="752000" />
+      <workItem from="1574215512752" duration="3069000" />
+      <workItem from="1574305945468" duration="5367000" />
+      <workItem from="1574315928631" duration="3977000" />
+      <workItem from="1574320607415" duration="10349000" />
+      <workItem from="1574384756869" duration="6204000" />
+      <workItem from="1574487382342" duration="5747000" />
+      <workItem from="1574646110368" duration="1320000" />
+      <workItem from="1574731035355" duration="12216000" />
+      <workItem from="1574750725167" duration="10597000" />
+      <workItem from="1574816786291" duration="27100000" />
+      <workItem from="1574846819770" duration="2856000" />
+      <workItem from="1574903749169" duration="1321000" />
+      <workItem from="1574905239068" duration="76000" />
+      <workItem from="1574905384184" duration="6522000" />
+      <workItem from="1574912035791" duration="21065000" />
+      <workItem from="1574989752629" duration="9102000" />
+      <workItem from="1574999816553" duration="14565000" />
+      <workItem from="1575079469105" duration="13555000" />
+      <workItem from="1575097526231" duration="2570000" />
+    </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1574754179827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574754179828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.test" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
+  </component>
+</project>
