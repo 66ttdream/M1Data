@@ -4,18 +4,24 @@ import data.entity.ArticleSummary;
 import data.entity.SynParameter;
 import data.usecase.port.ISynDataRepository;
 import data.usecase.port.IWxDataGateways;
-import data.usecase.port.SynParmeterRepository;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-public class SaveData {
-    //private data.usecase.port.SynParmeterRepository synParmeterRepository;
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class TimingSaveData {
     private IWxDataGateways iWxDataGateways;
-    private data.usecase.port.ISynDataRepository iSynDataRepository;
+    private ISynDataRepository iSynDataRepository;
+
     public void execut(SynParameter synParameter){
         iWxDataGateways.getArticleSummary(synParameter);
         for(ArticleSummary articleSummary:iWxDataGateways.getArticleSummary(synParameter)){
-           // iSynDataRepository.insertArticleSummary(iWxDataGateways.getArticleSummary(articleSummary));
+            iSynDataRepository.insertArticleSummary(articleSummary);
         }
-
 
     }
 }

@@ -1,0 +1,17 @@
+ext.moduleName = 'data.timingtask-app'
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+}
+
+apply plugin: 'java-library'
+
+dependencies {
+    implementation(
+            project(":controller"),
+            project(":conf"),
+            project(":usecase")
+    )
+}

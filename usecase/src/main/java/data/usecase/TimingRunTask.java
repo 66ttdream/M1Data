@@ -6,20 +6,27 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class RunTask implements Runnable{
+public class TimingRunTask implements Runnable{
     private SynParameter synParameter;
-    private SaveData saveData;
-    public RunTask(SynParameter synParameter) {
+    private TimingSaveData saveData;
+    private Lock lock = new ReentrantLock();
+
+    public TimingRunTask(SynParameter synParameter) {
         this.synParameter=synParameter;
     }
 
     @Override
     public void run() {
+        lock.lock();
         saveData.execut(synParameter);
+        lock.unlock();
     }
 
 }

@@ -11,9 +11,9 @@ import java.util.Iterator;
 import java.util.List;
 
 public class GsonStringTest {
-    @Test
+    /*@Test
     public void test(){
-        /*String json = "[{\"refDate\":\"2014-12-08\",\"msgId\":\"10000050_1\",\"title\": \"12月27日 DiLi日报\",\"intPageReadUser\": 23676,\"intPageReadCount\": 25615,\"oriPageReadUser\": 29,\"oriPageReadCount\": 34,\"shareUser\": 122,\"shareCount\": 994,\"addToFavUser\": 1,\"addToFavCount\": 3},{\"refDate\":\"2014-12-08\",\"msgId\":\"10000050_1\",\"title\": \"12月27日 DiLi日报\",\"intPageReadUser\": 23676,\"intPageReadCount\": 25615,\"oriPageReadUser\": 29,\"oriPageReadCount\": 34,\"shareUser\": 122,\"shareCount\": 994,\"addToFavUser\": 1,\"addToFavCount\": 3}]";
+        *//*String json = "[{\"refDate\":\"2014-12-08\",\"msgId\":\"10000050_1\",\"title\": \"12月27日 DiLi日报\",\"intPageReadUser\": 23676,\"intPageReadCount\": 25615,\"oriPageReadUser\": 29,\"oriPageReadCount\": 34,\"shareUser\": 122,\"shareCount\": 994,\"addToFavUser\": 1,\"addToFavCount\": 3},{\"refDate\":\"2014-12-08\",\"msgId\":\"10000050_1\",\"title\": \"12月27日 DiLi日报\",\"intPageReadUser\": 23676,\"intPageReadCount\": 25615,\"oriPageReadUser\": 29,\"oriPageReadCount\": 34,\"shareUser\": 122,\"shareCount\": 994,\"addToFavUser\": 1,\"addToFavCount\": 3}]";
         Gson gson = new Gson();
         JsonArray jsonArray = new JsonParser().parse(json).getAsJsonArray();
         for(int i=0; i< jsonArray.size(); i++){
@@ -32,7 +32,7 @@ public class GsonStringTest {
             System.out.println(a+"11");
             System.out.println(a.getAppid());
             System.out.println(a.getAddToFavCount());
-        }*/
+        }*//*
         //System.out.println(user);
         String json2 = "{ \n" +
                 "   \"list\": [ \n" +
@@ -78,7 +78,7 @@ public class GsonStringTest {
         List<ArticleTotalGateways> m = use.getList();
         System.out.println(m.toString());
         //Iterator it = m.iterator();
-        /*while (it.hasNext()){
+        *//*while (it.hasNext()){
             System.out.println(it.next());
             //ArticleTotalGateways ArticleTotalGateways = it.next();
             while (it.hasNext()){
@@ -86,7 +86,7 @@ public class GsonStringTest {
 
             }
 
-        }*/
+        }*//*
         for(ArticleTotalGateways a:m){
             List<ArticleTotal_Details>  l = a.getDetails();
             System.out.println(a.getMsgid());
@@ -108,7 +108,7 @@ public class GsonStringTest {
         ArticleTotalList articleTotalList = gson.fromJson(json, ArticleTotalList.class);
 
 
-    }
+    }*/
 
 
 }

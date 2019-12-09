@@ -14,16 +14,20 @@ import java.util.concurrent.BlockingQueue;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
-public class CreateTask {
+public class TimingCreateTask {
     private SynParmeterRepository synParmeterRepository;
-    private BlockingQueue blockingQueue = new ArrayBlockingQueue(20000);
+    public TimingCreateTask(SynParmeterRepository synParmeterRepository) {
+        this.synParmeterRepository=synParmeterRepository;
+    }
+
     public BlockingQueue execut(){
+        BlockingQueue blockingQueue = new ArrayBlockingQueue(20000);
         List<SynParameter> list = synParmeterRepository.findAllParameter();
         for(SynParameter synParameter:list){
-           RunTask rt =  new RunTask(synParameter);
+           TimingRunTask rt =  new TimingRunTask(synParameter);
             blockingQueue.add(rt);
         }
         return blockingQueue;
     }
+
 }

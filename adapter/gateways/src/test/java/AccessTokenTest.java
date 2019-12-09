@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class AccessTokenTest {
 
-    @Test
+    /*@Test
     public void getAccessToken(){
         SynParameter sp = SynParameter.builder()
                 .aesKey("1bowgIQcyrHMGq90sO4oXDFhseBrAPkW4uZ9xEca9la")
@@ -17,6 +17,6 @@ public class AccessTokenTest {
         String s  = accessTokenGateways.get(sp);
         System.out.println(s);
 
-    }
+    }*/
 
 }
