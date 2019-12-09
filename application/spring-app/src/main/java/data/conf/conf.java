@@ -1,7 +1,8 @@
 package data.conf;
 
-import data.controller.TimerSynDataControl;
+import data.controller.InterfaceParameterControl;
 import data.spring.conf.SpringConf;
+import data.usecase.DeleteSynParameter;
 import data.usecase.SaveSynParameter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,13 +12,17 @@ public class conf {
     public  final SpringConf config = new SpringConf();
 
     @Bean
-    public  SaveSynParameter saveSynParameter(){
+    public  SaveSynParameter getSaveSynParameter(){
         return config.saveSynParameter();
+    }
+    @Bean
+    public DeleteSynParameter  getDeleteSynParameter(){
+        return config.deleteSynParameter();
     }
 
     @Bean
-    public TimerSynDataControl timerSynDataControl(){
-        return new TimerSynDataControl(saveSynParameter());
+    public InterfaceParameterControl getTimerSynDataControl(){
+        return new InterfaceParameterControl(getSaveSynParameter(),getDeleteSynParameter());
     }
 
 

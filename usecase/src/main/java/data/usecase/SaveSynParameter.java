@@ -16,10 +16,12 @@ public class SaveSynParameter {
     private  AccessTokenGet accessTokenGet;
     private SynParmeterRepository synParmeterRepository;
     public void execute(SynParameter sp){
-        if(accessTokenGet.get(sp)!=null){
+        if(accessTokenGet.get(sp)!=null&&synParmeterRepository.findParameter(sp)==null){
             synParmeterRepository.insertPerameter(sp);
-        };
-
+        }
+        if(accessTokenGet.get(sp)!=null&&!synParmeterRepository.findParameter(sp).equals(sp)){
+            synParmeterRepository.upPerameter(sp);
+        }
     }
 
 

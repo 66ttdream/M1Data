@@ -12,6 +12,7 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Deprecated
 public class SynHistoryDataParameter {
     private AppId appid;
     private Date beginTime;

@@ -1,7 +1,7 @@
 import com.google.gson.Gson;
 import data.entity.SynParameter;
+import data.gateways.datagateways.WxDataGateways;
 import data.gateways.modle.UserCumulateGateways;
-import data.gateways.tokengateways.WxDataGateways;
 import data.vo.id.AppId;
 import me.chanjar.weixin.common.error.WxErrorException;
 import org.junit.jupiter.api.Test;

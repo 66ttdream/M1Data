@@ -7,5 +7,6 @@ module Data.repository.test {
     requires data.repository.synparameter;
     requires data.gateways.tokengateways;
     requires gson;
+    requires data.gateways.module;
 
 }

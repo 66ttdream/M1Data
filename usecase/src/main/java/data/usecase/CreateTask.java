@@ -1,6 +1,7 @@
 package data.usecase;
 
 import data.entity.SynParameter;
+import data.usecase.port.SynParmeterRepository;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,15 +16,14 @@ import java.util.concurrent.BlockingQueue;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CreateTask {
-    private List<SynParameter> list;
-    private BlockingQueue blockingQueue = new ArrayBlockingQueue(200);
+    private SynParmeterRepository synParmeterRepository;
+    private BlockingQueue blockingQueue = new ArrayBlockingQueue(20000);
     public BlockingQueue execut(){
+        List<SynParameter> list = synParmeterRepository.findAllParameter();
         for(SynParameter synParameter:list){
-           Task t =  new Task(synParameter);
-            blockingQueue.add(t);
+           RunTask rt =  new RunTask(synParameter);
+            blockingQueue.add(rt);
         }
-
         return blockingQueue;
     }
-
 }

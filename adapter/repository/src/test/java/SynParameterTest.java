@@ -9,10 +9,13 @@ public class SynParameterTest {
         SynPerameterRepository s = new SynPerameterRepository();
         SynParameter sp = SynParameter.builder()
                                       .aesKey("1")
-                                      .token("2")
+                                      .token("6")
                                       .synParameterId(new AppId("2"))
                                       .secret("2")
                                       .build();
-        System.out.println(s.findParameter(sp));
+        //System.out.println(s.findParameter(sp));
+        /*System.out.println(s.findParameter(sp).getToken());
+        System.out.println(s.findParameter(sp).getSecret());*/
+        s.upPerameter(sp);
     }
 }

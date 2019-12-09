@@ -8,8 +8,6 @@ public class TimerRunSynTask {
     public void execute(){
         ScheduledExecutorService scheduledExecutorService =
                 Executors.newScheduledThreadPool(20);
-
-
     }
 
 }
