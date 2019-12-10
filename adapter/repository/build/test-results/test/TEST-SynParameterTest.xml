@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SynParameterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-09T09:18:22" hostname="7JK9OQ7LAHCDEMY" time="0.289">
+<testsuite name="SynParameterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-10T09:41:21" hostname="7JK9OQ7LAHCDEMY" time="2.608">
   <properties/>
-  <testcase name="testfind()" classname="SynParameterTest" time="0.289"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <testcase name="testfind()" classname="SynParameterTest" time="2.608"/>
+  <system-out><![CDATA[data.entity.SynParameter@13c82c94
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
 </testsuite>

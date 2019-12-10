@@ -1,6 +1,7 @@
 package data.usecase;
 
 import data.entity.SynParameter;
+import data.usecase.exception.AccessTokenException;
 import data.usecase.port.AccessTokenGet;
 import data.usecase.port.SynParmeterRepository;
 import lombok.AllArgsConstructor;
@@ -15,7 +16,7 @@ import lombok.Setter;
 public class SaveSynParameter {
     private  AccessTokenGet accessTokenGet;
     private SynParmeterRepository synParmeterRepository;
-    public void execute(SynParameter sp){
+    public void execute(SynParameter sp) throws AccessTokenException{
         if(accessTokenGet.get(sp)!=null&&synParmeterRepository.findParameter(sp)==null){
             synParmeterRepository.insertPerameter(sp);
         }

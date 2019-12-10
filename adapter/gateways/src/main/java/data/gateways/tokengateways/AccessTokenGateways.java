@@ -16,7 +16,6 @@ public class AccessTokenGateways implements AccessTokenGet {
         } catch (WxErrorException e) {
             e.printStackTrace();
             throw  new AccessTokenException(e.getError().getErrorCode(),e.getMessage());
-
         }
     }
 }

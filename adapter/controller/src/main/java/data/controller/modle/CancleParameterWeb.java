@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 public class CancleParameterWeb {
     private String appid;
-    public AppId toAppid(String appid){
+    public AppId toAppId(){
         return  new AppId(appid);
     }
 }

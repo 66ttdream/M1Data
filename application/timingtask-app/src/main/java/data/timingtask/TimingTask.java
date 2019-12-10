@@ -19,7 +19,7 @@ public class TimingTask extends TimerTask {
         var timingTaskConfig = new TimingTaskConfig();
         createTask = timingTaskConfig.TimingCreateTask();
         blockingQueue =createTask.execut();
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS,
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 2000, TimeUnit.MILLISECONDS,
                 new ArrayBlockingQueue<Runnable>(1000));
         executor.prestartAllCoreThreads();
         for(Object t:blockingQueue){
@@ -27,4 +27,5 @@ public class TimingTask extends TimerTask {
             executor.execute(rt);
         }
     }
+
 }

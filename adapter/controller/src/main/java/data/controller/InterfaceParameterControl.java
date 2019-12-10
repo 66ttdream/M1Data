@@ -1,28 +1,30 @@
 package data.controller;
 
+import data.controller.modle.CancleParameterWeb;
 import data.controller.modle.SynParameterWeb;
 import data.usecase.DeleteSynParameter;
 import data.usecase.SaveSynParameter;
+import data.usecase.exception.AccessTokenException;
+import data.usecase.exception.NotExistException;
 import data.vo.id.AppId;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
-@AllArgsConstructor
-@Setter
-@Getter
-
+//@AllArgsConstructor
 public class InterfaceParameterControl {
     private SaveSynParameter saveSynParameter;
     private DeleteSynParameter deleteSynParameter;
 
-    public void start(SynParameterWeb spw){
+    public InterfaceParameterControl(SaveSynParameter saveSynParameter, DeleteSynParameter deleteSynParameter) {
+        this.saveSynParameter = saveSynParameter;
+        this.deleteSynParameter = deleteSynParameter;
+    }
+
+    public void start(SynParameterWeb spw) throws AccessTokenException{
         saveSynParameter.execute(spw.toSynParameter());
     }
 
-    public void cancel(SynParameterWeb spw){
-        deleteSynParameter.execut(new AppId(spw.getAppid()));
+    public void cancel(CancleParameterWeb appid) throws NotExistException{
+        deleteSynParameter.execut(appid.toAppId());
     }
 
 }

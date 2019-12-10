@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TimeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-29T03:09:43" hostname="7JK9OQ7LAHCDEMY" time="0.153">
+<testsuite name="TimeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-09T09:02:06" hostname="7JK9OQ7LAHCDEMY" time="0.133">
   <properties/>
-  <testcase name="test()" classname="TimeTest" time="0.153"/>
-  <system-out><![CDATA[Sat Nov 30 11:09:43 CST 2019
+  <testcase name="test()" classname="TimeTest" time="0.133"/>
+  <system-out><![CDATA[Sun Dec 08 17:02:06 CST 2019
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

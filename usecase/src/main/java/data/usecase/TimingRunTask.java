@@ -15,17 +15,18 @@ import java.util.concurrent.locks.ReentrantLock;
 @Setter
 public class TimingRunTask implements Runnable{
     private SynParameter synParameter;
-    private TimingSaveData saveData;
+    private TimingSaveData timingSaveData;
     private Lock lock = new ReentrantLock();
 
-    public TimingRunTask(SynParameter synParameter) {
+    public TimingRunTask(SynParameter synParameter,TimingSaveData timingSaveData) {
         this.synParameter=synParameter;
+        this.timingSaveData=timingSaveData;
     }
 
     @Override
     public void run() {
         lock.lock();
-        saveData.execut(synParameter);
+        timingSaveData.execut(synParameter);
         lock.unlock();
     }
 

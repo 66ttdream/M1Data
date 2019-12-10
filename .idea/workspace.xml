@@ -1,68 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="网关层方法补充">
-      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/TasksControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/CancleParameterWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/datagateways/WxDataGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/ArticleSummaryGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/ArticleSummaryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/ArticleTotalGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/ArticleTotalList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/ArticleTotal_Details.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/InterfaceSummaryGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/InterfaceSummaryHourGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/InterfaceSummaryHourList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/InterfaceSummaryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgDistGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgDistList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgDistMonthGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgDistMonthList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgDistWeekGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgDistWeekList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgHourGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgHourList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgMonthGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgMonthList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgWeekGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgWeekList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserCumulateList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserReadGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserReadHourGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserReadHourList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserReadList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserShareGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserShareHourGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserShareHourList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserShareList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserSummaryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/WxJsonGateways.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/SynDataRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/SynController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/ArticleSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/ArticleTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/Details.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/InterfaceSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/InterfaceSummaryHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsgDist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsgDistMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsgDistWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsgHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsgMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UpstreamMsgWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserCumulate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserReadHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserShareHour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/DeleteSynParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/RunTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IWxDataGateways.java" afterDir="false" />
+    <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/TimingTask/conf/TimingTaskConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/NotExistException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -71,45 +15,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/GenerateTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/SynConfController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/SynHistoryData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/TimerSynDataControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/modle/SynHistoryDataWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/InterfaceParameterControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/InterfaceParameterControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/TasksControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/TasksControl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/GenerateTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/SynConfController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/SynHistoryData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/TimerSynDataControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/SynHistoryDataWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/modle/UpstreamMsgGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/modle/UpstreamMsgGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/modle/UserCumulateGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/modle/UserCumulateGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/modle/UserSummaryGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/modle/UserSummaryGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/tokengateways/WxDataGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/tokengateways/WxDataGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/WxDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/WxDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/TasksControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/TasksControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/CancleParameterWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/CancleParameterWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/AccessTokenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/AccessTokenTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/classes/WxDataTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/TEST-WxDataTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UpstreamMsgGateways.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserCumulateGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserCumulateGateways.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserSummaryGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/modle/UserSummaryGateways.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/WxDataGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/WxDataGateways.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/test/java/WxDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/WxDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/model/SynParameterDb$SynParameterDbBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/model/SynParameterDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/port/ISynParameterDb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/syndata/SynDataRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/syndata/SynDataRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/synparameter/SynPerameterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/synparameter/SynPerameterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/classes/TimeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/classes/TimeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/TEST-TimeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/TEST-TimeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/test/SynParameterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/classes/java/test/SynParameterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynParameterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynParameterTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" afterDir="false" />
@@ -117,42 +42,31 @@
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/SynParameterDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/port/ISynParameterDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/ISynParameterDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/syndata/SynDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/syndata/SynDataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/synparameter/SynPerameterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/synparameter/SynPerameterRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/src/test/java/SynParameterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/SynParameterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/conf/conf.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/conf/conf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/controller/StartSynController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/libs/spring-app.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/conf/conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/conf/conf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/StartSynController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/data/spring/conf/SpringConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/data/spring/conf/SpringConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/conf/conf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/RunApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/RunApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/controller/SynController.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/controller/SynController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/conf/conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/conf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/RunApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/SynController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/SynController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/AccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/SynHistoryDataParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/SynHistoryDataParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/UserSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/data/entity/UserSummary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/data/entity/AccessToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/data/entity/SynHistoryDataParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/SynHistoryDataParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/data/entity/UserSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/DeleteSynParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/DeleteSynParameter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveSynParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveSynParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimerCreateTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimerCreateTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimerRunSynTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimerRunSynTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/gettoken/GetAccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/ISynDataRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/ISynDataRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/SynParmeterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/SynParmeterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/validator/ValidationParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/AccessTokenException.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/AccessTokenException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/AccessTokenGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/AccessTokenGet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/CreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/CreateTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/DeleteSynParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/DeleteSynParameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveSynParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveSynParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerCreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerCreateTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerRunSynTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimerRunSynTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/gettoken/GetAccessToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ISynDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ISynDataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/SynParmeterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/SynParmeterRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/validator/ValidationParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingCreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingCreateTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingRunTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingRunTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingSaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingSaveData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/AccessTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/AccessTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/ApplicationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/AccessTokenGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/AccessTokenGet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,12 +94,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="testmysql [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="testmysql [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="data: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -237,8 +145,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="module-info" />
         <option value="Interface" />
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -274,23 +182,25 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34264705" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data.spring.config" />
+      <recent name="data.spring.conf" />
+      <recent name="data" />
       <recent name="data.repository.model" />
       <recent name="data.gateways.datagateways" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaprojectdata\application\timingtask-app" />
+      <recent name="E:\ideaprojectdata\application\TimingTasK-app" />
       <recent name="E:\ideaprojectdata\adapter\repository\src\main\java\data\repository\port" />
       <recent name="E:\ideaprojectdata\domain\src\main\java\data\entity" />
       <recent name="E:\ideaprojectdata\adapter\gateways\src\test\java" />
-      <recent name="E:\ideaprojectdata\adapter\repository\src\test\java" />
-      <recent name="E:\ideaprojectdata\domain\src\main\java\data\vo\id" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -423,53 +333,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GsonStringTest.test">
-    <configuration name="GsonStringTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GsonStringTest.test&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":gateways:cleanTest" />
-            <option value=":gateways:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
+    <configuration name="TimingTaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.timingtask.TimingTaskRunner" />
+      <module name="Data.timingtask-app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.timingtask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="SynDataRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SynParameterTest.testDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SynDataRepositoryTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":repository:cleanTest" />
-            <option value=":repository:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SynDataRepositoryTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SynDataRepositoryTest.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;SynParameterTest.testDelete&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -489,7 +372,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SynParameterTest.testfind&quot; --info" />
+        <option name="scriptParameters" value="--tests &quot;SynParameterTest.testfind&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -523,6 +406,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ideaprojectdata [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Data.spring-app.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="data.spring.RunApplication" />
@@ -531,7 +433,6 @@
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -626,20 +527,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.GsonStringTest.test" />
-      <item itemvalue="Gradle.SynParameterTest.testfind" />
-      <item itemvalue="Gradle.SynDataRepositoryTest.test" />
-      <item itemvalue="Gradle.SynDataRepositoryTest" />
+      <item itemvalue="Application.TimingTaskRunner" />
       <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+      <item itemvalue="Gradle.ideaprojectdata [build]" />
       <item itemvalue="Spring Boot.RunApplication" />
+      <item itemvalue="Gradle.SynParameterTest.testDelete" />
+      <item itemvalue="Gradle.SynParameterTest.testfind" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GsonStringTest.test" />
         <item itemvalue="Gradle.SynParameterTest.testfind" />
+        <item itemvalue="Gradle.SynParameterTest.testDelete" />
         <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
-        <item itemvalue="Gradle.SynDataRepositoryTest" />
-        <item itemvalue="Gradle.SynDataRepositoryTest.test" />
+        <item itemvalue="Gradle.ideaprojectdata [build]" />
+        <item itemvalue="Application.TimingTaskRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -653,6 +554,9 @@
         </treeState>
       </serviceView>
     </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -707,7 +611,9 @@
       <workItem from="1575430307681" duration="17255000" />
       <workItem from="1575508500588" duration="22538000" />
       <workItem from="1575593991553" duration="24351000" />
-      <workItem from="1575855560256" duration="618000" />
+      <workItem from="1575855560256" duration="21698000" />
+      <workItem from="1575940951939" duration="4191000" />
+      <workItem from="1575946693440" duration="22503000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -744,7 +650,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575627818094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完全提交">
+      <created>1575857780197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575857780197</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tijiao">
+      <created>1575886960990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575886960990</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +702,9 @@
     <MESSAGE value="修正同步参数存储的漏洞，初步实现任务的创建与执行，等到下一步完成。" />
     <MESSAGE value="任务实现" />
     <MESSAGE value="测试改动" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试改动" />
+    <MESSAGE value="完全提交" />
+    <MESSAGE value="tijiao" />
+    <option name="LAST_COMMIT_MESSAGE" value="tijiao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

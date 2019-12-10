@@ -16,6 +16,7 @@ import java.util.concurrent.BlockingQueue;
 @NoArgsConstructor
 public class TimingCreateTask {
     private SynParmeterRepository synParmeterRepository;
+    private TimingSaveData timingSaveData;
     public TimingCreateTask(SynParmeterRepository synParmeterRepository) {
         this.synParmeterRepository=synParmeterRepository;
     }
@@ -24,7 +25,7 @@ public class TimingCreateTask {
         BlockingQueue blockingQueue = new ArrayBlockingQueue(20000);
         List<SynParameter> list = synParmeterRepository.findAllParameter();
         for(SynParameter synParameter:list){
-           TimingRunTask rt =  new TimingRunTask(synParameter);
+           TimingRunTask rt =  new TimingRunTask(synParameter,timingSaveData);
             blockingQueue.add(rt);
         }
         return blockingQueue;

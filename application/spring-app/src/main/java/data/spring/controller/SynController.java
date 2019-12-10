@@ -1,12 +1,14 @@
 package data.spring.controller;
 
 import data.controller.InterfaceParameterControl;
+import data.controller.modle.CancleParameterWeb;
 import data.controller.modle.SynParameterWeb;
+import data.usecase.exception.AccessTokenException;
+import data.usecase.exception.NotExistException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-//@RequestMapping(value = "/syn", method = RequestMethod.POST)
+@RequestMapping(value = "/syn")
 @RestController
 public class SynController {
 
@@ -15,18 +17,31 @@ public class SynController {
     public SynController(InterfaceParameterControl interfaceParameterControl) {
         this.interfaceParameterControl = interfaceParameterControl;
     }
+    @GetMapping(value = "/test")
+    public String test(){
+        return "nihao";
+    }
 
-
-    @RequestMapping(value = "/syn/start", method = RequestMethod.POST)
+    @PostMapping(value = "/start")
     public String synStart(@RequestBody SynParameterWeb synParameterWeb) {
-        System.out.println("连接成功");
-        interfaceParameterControl.start(synParameterWeb);
+        try {
+            interfaceParameterControl.start(synParameterWeb);
+        } catch (AccessTokenException e) {
+            e.printStackTrace();
+            return e.getMsg();
+        }
         return "successful";
 
     }
-    @PostMapping(value = "/syn/cancel")
-    public String synCancel(@RequestBody SynParameterWeb synParameterWeb) {
-        interfaceParameterControl.cancel(synParameterWeb);
+    @PostMapping(value = "/cancel")
+    public String synCancel(@RequestBody CancleParameterWeb appid) {
+        System.out.println(appid);
+        try {
+            interfaceParameterControl.cancel(appid);
+        } catch (NotExistException e) {
+            e.printStackTrace();
+            return e.getMsg();
+        }
         return "successful";
     }
     @PostMapping(value = "/llect")

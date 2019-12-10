@@ -10,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class AccessTokenException extends RuntimeException {
+public class AccessTokenException extends Exception {
     private int erroCode;
     private String msg;
 

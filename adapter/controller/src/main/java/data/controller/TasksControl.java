@@ -1,25 +1,27 @@
 package data.controller;
 
-import data.usecase.CreateTask;
-import data.usecase.RunTask;
+import data.usecase.TimingCreateTask;
+import data.usecase.TimingRunTask;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.TimerTask;
 import java.util.concurrent.*;
 
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class TasksControl {
+@Deprecated
+public class TasksControl extends TimerTask {
         private BlockingQueue blockingQueue;
-        private CreateTask createTask;
+        private TimingCreateTask createTask = new TimingCreateTask();
         /*public void cancelTask(){
 
         }*/
-        public void main(String args[]){
+        /*public void main(String args[]){
                 //需增加实现定时执行
                 blockingQueue =createTask.execut();
                 ScheduledExecutorService schedulePool= Executors.newScheduledThreadPool(10);
@@ -31,4 +33,17 @@ public class TasksControl {
                 }
 
         }
+*/
+    @Override
+    public void run() {
+        blockingQueue =createTask.execut();
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 200, TimeUnit.MILLISECONDS,
+                new ArrayBlockingQueue<Runnable>(1000));
+        executor.prestartAllCoreThreads();
+        for(Object t:blockingQueue){
+            TimingRunTask rt = (TimingRunTask)t;
+            executor.execute(rt);
+        }
+
+    }
 }
