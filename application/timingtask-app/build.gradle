@@ -6,7 +6,7 @@ buildscript {
 
 }
 
-apply plugin: 'java-library'
+apply plugin: 'application'
 
 dependencies {
     implementation(
@@ -16,3 +16,4 @@ dependencies {
             project(":infrastructure")
     )
 }
+mainClassName = 'data.timingtask.TimingTaskRunner'

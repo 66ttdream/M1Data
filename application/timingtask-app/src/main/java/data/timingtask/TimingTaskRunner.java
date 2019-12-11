@@ -3,7 +3,6 @@ package data.timingtask;
 
 import util.Time;
 
-import java.util.Date;
 import java.util.Timer;
 
 public class TimingTaskRunner {

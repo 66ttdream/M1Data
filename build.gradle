@@ -1,6 +1,7 @@
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
+
 subprojects {
     apply plugin: 'java'
     group = 'Data'

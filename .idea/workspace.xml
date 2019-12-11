@@ -1,76 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="xiugai">
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/UserTypeException.java" afterDir="false" />
+    <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/InterfaceParameterControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/InterfaceParameterControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/modle/CancleParameterWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/modle/CancleParameterWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/datagateways/WxDataGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/datagateways/WxDataGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/classes/WxDataTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/classes/WxDataTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/TEST-WxDataTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/TEST-WxDataTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/datagateways/WxDataGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/datagateways/WxDataGateways.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/test/java/WxDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/WxDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/util/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/util/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynParameterTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynParameterTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-SynParameterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-SynParameterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/controller/SynController.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/data/spring/controller/SynController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/libs/spring-app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/libs/spring-app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/SynController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/SynController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/timingtask-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/build/classes/java/main/data/timingtask/TimingTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build/classes/java/main/data/timingtask/TimingTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/timingtask-app/build/classes/java/main/data/timingtask/TimingTaskRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build/classes/java/main/data/timingtask/TimingTaskRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/build/libs/timingtask-app.jar" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build/libs/timingtask-app.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTaskRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/data/TimingTask/conf/TimingTaskConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/data/TimingTask/conf/TimingTaskConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/data/spring/conf/SpringConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/data/spring/conf/SpringConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/src/main/java/data/TimingTask/conf/TimingTaskConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/data/TimingTask/conf/TimingTaskConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/SpringConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/SpringConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/DeleteSynParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/DeleteSynParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveSynParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveSynParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimingCreateTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimingCreateTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimingRunTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimingRunTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimingSaveData.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/TimingSaveData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/ApplicationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/ApplicationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/NotExistException.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/exception/NotExistException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/IWxDataGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/IWxDataGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveSynParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveSynParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingCreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingCreateTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingRunTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingRunTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingSaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/TimingSaveData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/ApplicationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/NotExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/exception/NotExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IWxDataGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IWxDataGateways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,12 +65,49 @@
         <task path="$PROJECT_DIR$/adapter/gateways">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/application/timingtask-app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Data" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="timingtask-app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="timingtask-app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="timingtask-app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -165,6 +147,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -380,7 +363,7 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ideaprojectdata [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ideaprojectdata [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -391,7 +374,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="run" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -399,10 +382,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ideaprojectdata [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ideaprojectdata:application:timingtask-app [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/application/timingtask-app" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -410,7 +393,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="run" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -520,20 +503,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimingTaskRunner" />
-      <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
-      <item itemvalue="Gradle.ideaprojectdata [build]" />
       <item itemvalue="Gradle.SynParameterTest.testDelete" />
       <item itemvalue="Gradle.SynParameterTest.testfind" />
       <item itemvalue="Spring Boot.RunApplication" />
+      <item itemvalue="Gradle.ideaprojectdata:application:timingtask-app [run]" />
+      <item itemvalue="Gradle.ideaprojectdata [run]" />
+      <item itemvalue="Application.TimingTaskRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimingTaskRunner" />
+        <item itemvalue="Gradle.ideaprojectdata [run]" />
+        <item itemvalue="Gradle.ideaprojectdata:application:timingtask-app [run]" />
         <item itemvalue="Gradle.SynParameterTest.testfind" />
         <item itemvalue="Gradle.SynParameterTest.testDelete" />
-        <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
-        <item itemvalue="Gradle.ideaprojectdata [build]" />
-        <item itemvalue="Application.TimingTaskRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -607,7 +590,7 @@
       <workItem from="1575855560256" duration="21698000" />
       <workItem from="1575940951939" duration="4191000" />
       <workItem from="1575946693440" duration="23446000" />
-      <workItem from="1576026273642" duration="21268000" />
+      <workItem from="1576026273642" duration="25782000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -665,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575972541558</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task依赖添加">
+      <created>1576055583514</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576055583514</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +696,8 @@
     <MESSAGE value="完全提交" />
     <MESSAGE value="tijiao" />
     <MESSAGE value="xiugai" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
+    <MESSAGE value="Task依赖添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task依赖添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
