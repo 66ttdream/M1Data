@@ -12,6 +12,7 @@ dependencies {
     implementation(
             project(":controller"),
             project(":conf"),
-            project(":usecase")
+            project(":usecase"),
+            project(":infrastructure")
     )
 }

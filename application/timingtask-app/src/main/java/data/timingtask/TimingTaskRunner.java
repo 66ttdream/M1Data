@@ -1,14 +1,17 @@
 package data.timingtask;
 
-import data.TimingTask.conf.TimingTaskConfig;
+
+import util.Time;
 
 import java.util.Date;
 import java.util.Timer;
 
 public class TimingTaskRunner {
     private static Timer timer=new Timer(true);
-    private static TimingTask tasksControl =new TimingTask();
+    //private static TimingTask tasksControl =new TimingTask();
     public static void main(String[] args){
-        timer.schedule(tasksControl,new Date(),86400000);
+        TimingTask tasksControl =new TimingTask();
+        timer.schedule(tasksControl, Time.getTomorrowBegin(),86400000);
     }
+
 }

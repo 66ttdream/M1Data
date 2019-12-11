@@ -14,12 +14,14 @@ import java.util.concurrent.BlockingQueue;
 @Getter
 @Setter
 @NoArgsConstructor
+@AllArgsConstructor
 public class TimingCreateTask {
     private SynParmeterRepository synParmeterRepository;
     private TimingSaveData timingSaveData;
-    public TimingCreateTask(SynParmeterRepository synParmeterRepository) {
+    /*public TimingCreateTask(SynParmeterRepository synParmeterRepository,TimingSaveData timingSaveData) {
         this.synParmeterRepository=synParmeterRepository;
-    }
+        this.timingSaveData = timingSaveData;
+    }*/
 
     public BlockingQueue execut(){
         BlockingQueue blockingQueue = new ArrayBlockingQueue(20000);

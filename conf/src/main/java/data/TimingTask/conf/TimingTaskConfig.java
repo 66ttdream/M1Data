@@ -9,6 +9,13 @@ import data.usecase.TimingSaveData;
 import data.usecase.port.ISynDataRepository;
 import data.usecase.port.IWxDataGateways;
 import data.usecase.port.SynParmeterRepository;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 
 public class TimingTaskConfig {
     private SynParmeterRepository synParmeterRepository = new SynPerameterRepository();
@@ -19,11 +26,11 @@ public class TimingTaskConfig {
     public TimingSaveData TimingSaveData(){
         return new TimingSaveData(iWxDataGateways,iSynDataRepository);
     }
-    public TimingCreateTask TimingCreateTask(){
+    /*public TimingCreateTask TimingCreateTask(){
         return new TimingCreateTask(synParmeterRepository);
-    }
+    }*/
     public TimingRunTask TimingRunTask(){
-        return null;
+        return new TimingRunTask();
     }
 
 }

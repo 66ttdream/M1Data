@@ -96,5 +96,10 @@ public class Time {
         return postMuchTime;
 
     }
+    public static long getTomorrowBegin() {    //获取凌晨时间
+        long now = System.currentTimeMillis() / 1000l;
+        long daySecond = 60 * 60 * 24;
+        long dayTime = now - (now + 8 * 3600) % daySecond + 1*daySecond; return dayTime;
+    }
 
 }

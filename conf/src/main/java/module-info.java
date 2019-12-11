@@ -4,5 +4,6 @@ module Data.conf {
     requires Data.gateways;
     requires Data.usecase;
     requires Data.repository;
+    requires lombok;
 
 }

@@ -9,6 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+
 public class NotExistException extends Exception{
     private int erroCode;
     private String msg;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WxDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-09T09:01:57" hostname="7JK9OQ7LAHCDEMY" time="4.97">
+<testsuite name="WxDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-11T03:38:06" hostname="7JK9OQ7LAHCDEMY" time="5.633">
   <properties/>
-  <testcase name="Test()" classname="WxDataTest" time="4.97"/>
-  <system-out><![CDATA[[][][][][][][][][][][][{"refDate":"Dec 8, 2019, 12:00:00 AM","cumulateUser":2}][][][][][][{"refDate":"Dec 8, 2019, 12:00:00 AM","cumulateUser":2}]
-Dec 8, 2019, 12:00:00 AM
+  <testcase name="Test()" classname="WxDataTest" time="5.633"/>
+  <system-out><![CDATA[[][][][][][][][][][][][{"refDate":"Dec 10, 2019, 12:00:00 AM","cumulateUser":2}][][][][][][{"refDate":"Dec 10, 2019, 12:00:00 AM","cumulateUser":2}]
+Dec 10, 2019, 12:00:00 AM
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation

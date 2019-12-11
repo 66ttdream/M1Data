@@ -1,6 +1,6 @@
-module Data.timingtask.app {
+module Data.timingtask {
     requires Data.controller.main;
     requires Data.conf;
     requires Data.usecase;
-
+    requires Data.infrastructure;
 }

@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class WxDataTest {
-    @Test
+    /*@Test
     public  void  Test() throws WxErrorException {
         SynParameter sp = SynParameter.builder()
                 .aesKey("1bowgIQcyrHMGq90sO4oXDFhseBrAPkW4uZ9xEca9la")
@@ -17,7 +17,7 @@ public class WxDataTest {
                 .synParameterId(new AppId("wx204617e03f6e00c7"))
                 .secret("d1f3f3e4797decbafe3c3a608f84b656")
                 .build();
-        List<List> l = WxDataGateways.get(sp);
+        //List<List> l = WxDataGateways.get(sp);
         for(List li:l){
                 System.out.print(li.toString());
         }
@@ -26,5 +26,5 @@ public class WxDataTest {
         UserCumulateGateways userCumulateGateways = gson.fromJson(l.get(11).toString().replace("[","").replace("]",""),UserCumulateGateways.class);
         System.out.println(userCumulateGateways.getRefDate());
 
-    }
+    }*/
 }

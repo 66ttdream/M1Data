@@ -17,7 +17,7 @@ public class TimingTask extends TimerTask {
     @Override
     public void run() {
         var timingTaskConfig = new TimingTaskConfig();
-        createTask = timingTaskConfig.TimingCreateTask();
+        createTask = new TimingCreateTask(timingTaskConfig.getSynParmeterRepository(),timingTaskConfig.TimingSaveData());
         blockingQueue =createTask.execut();
         ThreadPoolExecutor executor = new ThreadPoolExecutor(5, 10, 2000, TimeUnit.MILLISECONDS,
                 new ArrayBlockingQueue<Runnable>(1000));

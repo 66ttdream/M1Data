@@ -6,6 +6,7 @@ import data.usecase.DeleteSynParameter;
 import data.usecase.SaveSynParameter;
 import data.usecase.exception.AccessTokenException;
 import data.usecase.exception.NotExistException;
+import data.usecase.exception.UserTypeException;
 import data.vo.id.AppId;
 import lombok.*;
 
@@ -19,7 +20,7 @@ public class InterfaceParameterControl {
         this.deleteSynParameter = deleteSynParameter;
     }
 
-    public void start(SynParameterWeb spw) throws AccessTokenException{
+    public void start(SynParameterWeb spw) throws AccessTokenException, UserTypeException {
         saveSynParameter.execute(spw.toSynParameter());
     }
 

@@ -1,6 +1,7 @@
 package data.usecase;
 
 import data.entity.SynParameter;
+import data.usecase.exception.ApplicationException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,8 +26,17 @@ public class TimingRunTask implements Runnable{
 
     @Override
     public void run() {
+        //TimingSaveData timingSaveData = new TimingSaveData();
         lock.lock();
-        timingSaveData.execut(synParameter);
+        try {
+            timingSaveData.execut(synParameter);
+        } catch (ApplicationException e) {
+            e.printStackTrace();
+            boolean status= true;
+            while(status){
+            }
+            //Thread.sleep();
+        }
         lock.unlock();
     }
 

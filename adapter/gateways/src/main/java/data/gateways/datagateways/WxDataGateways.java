@@ -14,12 +14,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+
 public class WxDataGateways implements IWxDataGateways {
     private static Gson gson = new Gson();
     private static Date begindate = Time.generateSynTime();
     private static Date enddate = Time.generateSynTime();
-    @Deprecated
-   public static ArrayList get(SynParameter sp) throws WxErrorException {  //date需要工具类实现
+   /*public static ArrayList get(SynParameter sp) throws WxErrorException {  //date需要工具类实现
         Gson gson = new Gson();
         var begindate = Time.generateSynTime();
         var enddate = Time.generateSynTime();
@@ -64,7 +64,7 @@ public class WxDataGateways implements IWxDataGateways {
         return al;
 
     }
-
+*/
     @Override
     public List<ArticleSummary> getArticleSummary(SynParameter sp) throws ApplicationException {
         var wxMpService = WxConf.init(sp);
@@ -83,13 +83,13 @@ public class WxDataGateways implements IWxDataGateways {
 
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
     @Deprecated
     @Override
-    public List<ArticleTotal> getArticleTotal(SynParameter sp) {
+    public List<ArticleTotal> getArticleTotal(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         try {
@@ -97,13 +97,13 @@ public class WxDataGateways implements IWxDataGateways {
 
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return null;
     }
 
     @Override
-    public List<InterfaceSummary> getInterfaceSummary(SynParameter sp) {
+    public List<InterfaceSummary> getInterfaceSummary(SynParameter sp)throws ApplicationException {
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<InterfaceSummary> l = new ArrayList<InterfaceSummary>();
@@ -118,13 +118,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<InterfaceSummaryHour> getInterfaceSummaryHour(SynParameter sp) {
+    public List<InterfaceSummaryHour> getInterfaceSummaryHour(SynParameter sp)throws ApplicationException {
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<InterfaceSummaryHour> l = new ArrayList<InterfaceSummaryHour>();
@@ -139,13 +139,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return null;
     }
 
     @Override
-    public List<UpstreamMsg> getUpstreamMsg(SynParameter sp) {
+    public List<UpstreamMsg> getUpstreamMsg(SynParameter sp)throws ApplicationException {
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsg> l = new ArrayList<UpstreamMsg>();
@@ -160,13 +160,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UpstreamMsgDist> getUpstreamMsgDist(SynParameter sp) {
+    public List<UpstreamMsgDist> getUpstreamMsgDist(SynParameter sp)throws ApplicationException {
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsgDist> l = new ArrayList<UpstreamMsgDist>();
@@ -181,13 +181,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UpstreamMsgDistMonth> getUpstreamMsgDistMonth(SynParameter sp) {
+    public List<UpstreamMsgDistMonth> getUpstreamMsgDistMonth(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsgDistMonth> l = new ArrayList<UpstreamMsgDistMonth>();
@@ -202,13 +202,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UpstreamMsgDistWeek> getUpstreamMsgDistWeek(SynParameter sp) {
+    public List<UpstreamMsgDistWeek> getUpstreamMsgDistWeek(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsgDistWeek> l = new ArrayList<UpstreamMsgDistWeek>();
@@ -223,13 +223,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UpstreamMsgHour> getUpstreamMsgHour(SynParameter sp) {
+    public List<UpstreamMsgHour> getUpstreamMsgHour(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsgHour> l = new ArrayList<UpstreamMsgHour>();
@@ -244,13 +244,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UpstreamMsgMonth> getUpstreamMsgMonth(SynParameter sp) {
+    public List<UpstreamMsgMonth> getUpstreamMsgMonth(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsgMonth> l = new ArrayList<UpstreamMsgMonth>();
@@ -265,13 +265,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UpstreamMsgWeek> getUpstreamMsgWeek(SynParameter sp) {
+    public List<UpstreamMsgWeek> getUpstreamMsgWeek(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UpstreamMsgWeek> l = new ArrayList<UpstreamMsgWeek>();
@@ -286,13 +286,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UserCumulate> getUserCumulate(SynParameter sp) {
+    public List<UserCumulate> getUserCumulate(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UserCumulate> l = new ArrayList<UserCumulate>();
@@ -307,13 +307,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UserRead> getUserRead(SynParameter sp) {
+    public List<UserRead> getUserRead(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UserRead> l = new ArrayList<UserRead>();
@@ -328,13 +328,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UserReadHour> getUserReadHour(SynParameter sp) {
+    public List<UserReadHour> getUserReadHour(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UserReadHour> l = new ArrayList<UserReadHour>();
@@ -349,13 +349,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return l;
     }
 
     @Override
-    public List<UserShare> getUserShare(SynParameter sp) {
+    public List<UserShare> getUserShare(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UserShare> l = new ArrayList<UserShare>();
@@ -370,13 +370,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return null;
     }
 
     @Override
-    public List<UserShareHour> getUserShareHour(SynParameter sp) {
+    public List<UserShareHour> getUserShareHour(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UserShareHour> l = new ArrayList<UserShareHour>();
@@ -391,13 +391,13 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return null;
     }
 
     @Override
-    public List<UserSummary> getUserSummary(SynParameter sp) {
+    public List<UserSummary> getUserSummary(SynParameter sp) throws ApplicationException{
         var wxMpService = WxConf.init(sp);
         WxMpDataCubeServiceImpl wd = new WxMpDataCubeServiceImpl(wxMpService);
         List<UserSummary> l = new ArrayList<UserSummary>();
@@ -412,7 +412,7 @@ public class WxDataGateways implements IWxDataGateways {
             }
         } catch (WxErrorException e) {
             e.printStackTrace();
-            throw new ApplicationException(e.hashCode(),e.getMessage());
+            throw new ApplicationException(e.getError().getErrorCode(),e.getMessage());
         }
         return null;
     }

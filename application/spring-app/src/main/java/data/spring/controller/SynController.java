@@ -5,6 +5,7 @@ import data.controller.modle.CancleParameterWeb;
 import data.controller.modle.SynParameterWeb;
 import data.usecase.exception.AccessTokenException;
 import data.usecase.exception.NotExistException;
+import data.usecase.exception.UserTypeException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,6 +28,9 @@ public class SynController {
         try {
             interfaceParameterControl.start(synParameterWeb);
         } catch (AccessTokenException e) {
+            e.printStackTrace();
+            return e.getMsg();
+        }catch (UserTypeException e){
             e.printStackTrace();
             return e.getMsg();
         }
