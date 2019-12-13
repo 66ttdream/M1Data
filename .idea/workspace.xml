@@ -8,14 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/timingtask-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/build/classes/java/main/data/timingtask/TimingTaskRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build/classes/java/main/data/timingtask/TimingTaskRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTaskRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +103,7 @@
                 <item name="Data" type="f1a62948:ProjectNode" />
                 <item name="timingtask-app" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -147,7 +143,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -503,12 +499,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TimingTaskRunner" />
       <item itemvalue="Gradle.SynParameterTest.testDelete" />
       <item itemvalue="Gradle.SynParameterTest.testfind" />
-      <item itemvalue="Spring Boot.RunApplication" />
       <item itemvalue="Gradle.ideaprojectdata:application:timingtask-app [run]" />
       <item itemvalue="Gradle.ideaprojectdata [run]" />
-      <item itemvalue="Application.TimingTaskRunner" />
+      <item itemvalue="Spring Boot.RunApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -590,7 +586,9 @@
       <workItem from="1575855560256" duration="21698000" />
       <workItem from="1575940951939" duration="4191000" />
       <workItem from="1575946693440" duration="23446000" />
-      <workItem from="1576026273642" duration="25782000" />
+      <workItem from="1576026273642" duration="25837000" />
+      <workItem from="1576113084771" duration="6175000" />
+      <workItem from="1576199937589" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -655,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576055583514</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Task依赖添加">
+      <created>1576061527433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576061527433</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

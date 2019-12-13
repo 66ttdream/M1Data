@@ -12,5 +12,4 @@ public class TimingTaskRunner {
         TimingTask tasksControl =new TimingTask();
         timer.schedule(tasksControl, Time.getTomorrowBegin(),86400000);
     }
-
 }
