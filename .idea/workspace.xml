@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TestTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/timingtask-app/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/timingtask-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTaskRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TimingTaskRunner.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +96,12 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Data" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Data" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
               <path>
@@ -154,10 +171,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/data/clean-architecture-example" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34264705" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -305,33 +322,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimingTaskRunner">
-    <configuration name="TimingTaskRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.timingtask.TimingTaskRunner" />
-      <module name="Data.timingtask-app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.timingtask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynParameterTest.testDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
+    <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SynParameterTest.testDelete&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MainTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":repository:cleanTest" />
-            <option value=":repository:test" />
+            <option value=":timingtask-app:cleanTest" />
+            <option value=":timingtask-app:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -339,19 +343,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SynParameterTest.testfind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SynParameterTest.testfind&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MainTest.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":repository:cleanTest" />
-            <option value=":repository:test" />
+            <option value=":timingtask-app:cleanTest" />
+            <option value=":timingtask-app:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -359,7 +363,27 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ideaprojectdata [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.testMain" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MainTest.testMain&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":timingtask-app:cleanTest" />
+            <option value=":timingtask-app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ideaprojectdata [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -370,7 +394,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="run" />
+            <option value="bootRun" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -378,10 +402,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ideaprojectdata:application:timingtask-app [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ideaprojectdata [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/application/timingtask-app" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -389,7 +413,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="run" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -499,20 +523,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TimingTaskRunner" />
-      <item itemvalue="Gradle.SynParameterTest.testDelete" />
-      <item itemvalue="Gradle.SynParameterTest.testfind" />
-      <item itemvalue="Gradle.ideaprojectdata:application:timingtask-app [run]" />
-      <item itemvalue="Gradle.ideaprojectdata [run]" />
+      <item itemvalue="Gradle.ideaprojectdata [build]" />
+      <item itemvalue="Gradle.MainTest.testMain" />
+      <item itemvalue="Gradle.MainTest" />
+      <item itemvalue="Gradle.MainTest.test" />
+      <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
       <item itemvalue="Spring Boot.RunApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimingTaskRunner" />
-        <item itemvalue="Gradle.ideaprojectdata [run]" />
-        <item itemvalue="Gradle.ideaprojectdata:application:timingtask-app [run]" />
-        <item itemvalue="Gradle.SynParameterTest.testfind" />
-        <item itemvalue="Gradle.SynParameterTest.testDelete" />
+        <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+        <item itemvalue="Gradle.MainTest" />
+        <item itemvalue="Gradle.MainTest.testMain" />
+        <item itemvalue="Gradle.MainTest.test" />
+        <item itemvalue="Gradle.ideaprojectdata [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -588,7 +612,11 @@
       <workItem from="1575946693440" duration="23446000" />
       <workItem from="1576026273642" duration="25837000" />
       <workItem from="1576113084771" duration="6175000" />
-      <workItem from="1576199937589" duration="1233000" />
+      <workItem from="1576199937589" duration="1926000" />
+      <workItem from="1576288762000" duration="7015000" />
+      <workItem from="1576458953689" duration="1833000" />
+      <workItem from="1576636412598" duration="645000" />
+      <workItem from="1576652816610" duration="10372000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -660,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576061527433</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="01">
+      <created>1576231465649</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576231465650</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,7 +737,8 @@
     <MESSAGE value="tijiao" />
     <MESSAGE value="xiugai" />
     <MESSAGE value="Task依赖添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task依赖添加" />
+    <MESSAGE value="01" />
+    <option name="LAST_COMMIT_MESSAGE" value="01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

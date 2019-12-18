@@ -7,6 +7,7 @@ module Data.spring{
     requires Data.controller.main;
     requires Data.conf;
     requires Data.usecase;
+    requires tomcat.embed.core;
 
 
     //exports com.slalom.example.spring;

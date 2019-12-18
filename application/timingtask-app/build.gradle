@@ -17,5 +17,9 @@ dependencies {
             project(":infrastructure")
     )
 }
+jar {
+    manifest.attributes 'Main-Class': 'data.timingtask.TimingTaskRunner'
+//    from configuration.compile.collect { zipTree it}
+}
 
 
