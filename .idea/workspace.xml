@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/LogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/timingtask-app/src/main/java/data/timingtask/TestTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/timingtask-app/src/test/java/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/LogControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/EventConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/TestEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/log/conf/LogConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/OutputLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -17,12 +20,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynDataRepositoryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynParameterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-SynDataRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-SynParameterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/LogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/timingtask-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/timingtask-app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,8 +149,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -322,33 +338,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
+  <component name="RunManager" selected="Gradle.TestEnum">
     <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;MainTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":timingtask-app:cleanTest" />
-            <option value=":timingtask-app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MainTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MainTest.test&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -383,6 +379,46 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestEnum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestEnum&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":repository:cleanTest" />
+            <option value=":repository:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEnum.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TestEnum.test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":repository:cleanTest" />
+            <option value=":repository:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ideaprojectdata [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -395,25 +431,6 @@
         <option name="taskNames">
           <list>
             <option value="bootRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ideaprojectdata [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -523,20 +540,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.ideaprojectdata [build]" />
       <item itemvalue="Gradle.MainTest.testMain" />
       <item itemvalue="Gradle.MainTest" />
-      <item itemvalue="Gradle.MainTest.test" />
       <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+      <item itemvalue="Gradle.TestEnum.test" />
+      <item itemvalue="Gradle.TestEnum" />
       <item itemvalue="Spring Boot.RunApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestEnum" />
+        <item itemvalue="Gradle.TestEnum.test" />
         <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
         <item itemvalue="Gradle.MainTest" />
         <item itemvalue="Gradle.MainTest.testMain" />
-        <item itemvalue="Gradle.MainTest.test" />
-        <item itemvalue="Gradle.ideaprojectdata [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -616,7 +633,8 @@
       <workItem from="1576288762000" duration="7015000" />
       <workItem from="1576458953689" duration="1833000" />
       <workItem from="1576636412598" duration="645000" />
-      <workItem from="1576652816610" duration="10372000" />
+      <workItem from="1576652816610" duration="11340000" />
+      <workItem from="1576717309576" duration="26227000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -695,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576231465650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="02">
+      <created>1576663786482</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576663786482</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +763,8 @@
     <MESSAGE value="xiugai" />
     <MESSAGE value="Task依赖添加" />
     <MESSAGE value="01" />
-    <option name="LAST_COMMIT_MESSAGE" value="01" />
+    <MESSAGE value="02" />
+    <option name="LAST_COMMIT_MESSAGE" value="02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,11 +773,6 @@
           <url>file://$PROJECT_DIR$/adapter/gateways/src/test/java/GsonStringTest.java</url>
           <line>29</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/synparameter/SynPerameterRepository.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

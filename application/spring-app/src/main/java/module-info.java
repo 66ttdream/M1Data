@@ -8,6 +8,7 @@ module Data.spring{
     requires Data.conf;
     requires Data.usecase;
     requires tomcat.embed.core;
+    requires gson;
 
 
     //exports com.slalom.example.spring;
