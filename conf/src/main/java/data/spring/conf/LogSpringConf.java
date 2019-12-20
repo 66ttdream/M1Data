@@ -21,7 +21,7 @@ public class LogSpringConf {
        return new SaveLog(iLogRepository);
    }
    public PrintLog getPrintLog(){
-       return new PrintLog(iLogGateways);
+       return new PrintLog(iLogGateways,iLogRepository);
    }
 
 }
