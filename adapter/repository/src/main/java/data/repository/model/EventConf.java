@@ -1,5 +1,10 @@
 package data.repository.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
 public enum EventConf {
     /*("1","RESOURCELOAD"),
     SHAREPAGE("2","SHAREPAGE"),
@@ -20,4 +25,13 @@ public enum EventConf {
     public String getTableName() {
         return tableName;
     }*/
+    RESOURCELOAD(1),
+    SHAREPAGE(2),
+    COSMETOLOGIST(3),
+    OPENAPP(4),
+    FORWARDINGAPP(5),
+    ASTERISKAPP(6),
+    APPOINTMENT(7);
+    private int evevtId;
+
 }

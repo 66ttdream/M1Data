@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/LogControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/EventConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/TestEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/log/conf/LogConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/OutputLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/loggateways/LogGateways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/LogConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/LogSpringConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PrintLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogGateways.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -21,24 +19,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/InterfaceParameterControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/classes/java/main/data/controller/InterfaceParameterControl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/LogControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/LogControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynDataRepositoryTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/SynParameterTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-SynDataRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-SynParameterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/EventConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/EventConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/OutputLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestEnum">
+  <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
     <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -635,6 +633,8 @@
       <workItem from="1576636412598" duration="645000" />
       <workItem from="1576652816610" duration="11340000" />
       <workItem from="1576717309576" duration="26227000" />
+      <workItem from="1576751420430" duration="158000" />
+      <workItem from="1576804095550" duration="19249000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -720,7 +720,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576663786482</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="03">
+      <created>1576751529317</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576751529318</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -764,7 +771,8 @@
     <MESSAGE value="Task依赖添加" />
     <MESSAGE value="01" />
     <MESSAGE value="02" />
-    <option name="LAST_COMMIT_MESSAGE" value="02" />
+    <MESSAGE value="03" />
+    <option name="LAST_COMMIT_MESSAGE" value="03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

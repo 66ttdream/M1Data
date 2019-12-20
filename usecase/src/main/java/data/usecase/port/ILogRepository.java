@@ -4,5 +4,6 @@ import java.util.Map;
 
 public interface ILogRepository {
     public void insert(Map<String,String[]> map);
-    public Map findConf();
+    public Map findConf(String eventid);
+    public void upData(Map<String,String[]> map);
 }

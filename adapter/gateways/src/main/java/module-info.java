@@ -1,6 +1,7 @@
 module Data.gateways{
     exports data.gateways.tokengateways;
     exports data.gateways.datagateways;
+    exports data.gateways.loggateways;
     requires Data.usecase;
     requires weixin.java.mp;
     requires Data.domain;
