@@ -9,5 +9,6 @@ module Data.gateways{
     requires Data.infrastructure;
     requires lombok;
     requires gson;
+    requires log4j;
 
 }

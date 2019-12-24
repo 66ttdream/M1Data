@@ -8,5 +8,7 @@ module Data.repository.test {
     requires data.gateways.tokengateways;
     requires gson;
     requires data.gateways.module;
+    requires log4j;
+    requires log4j;
 
 }

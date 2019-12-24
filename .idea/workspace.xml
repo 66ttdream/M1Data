@@ -2,11 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/Log4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/LogRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/database/conf/DBConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/mysql/conf/MysqlConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/tokengateways/AccessTokenGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/tokengateways/AccessTokenGateways.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/AccessTokenTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/GsonStringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/WxDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/classes/WxDataTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/TEST-WxDataTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/db/Databases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/syndata/SynDataRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/synparameter/SynPerameterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/db/Databases.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/db/Databases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/LogSpringConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/LogSpringConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PrintLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PrintLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,6 +166,7 @@
         <option value="package-info" />
         <option value="module-info" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -153,14 +201,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/data/clean-architecture-example" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/data/User" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34264705" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaprojectdata\adapter\gateways\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="data.spring.config" />
       <recent name="data.spring.conf" />
@@ -307,19 +359,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
-    <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Log4jTest.testLog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MainTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;Log4jTest.testLog&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":timingtask-app:cleanTest" />
-            <option value=":timingtask-app:test" />
+            <option value=":gateways:cleanTest" />
+            <option value=":gateways:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -327,19 +379,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.testMain" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LogProppositoryTest.insertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MainTest.testMain&quot;" />
+        <option name="scriptParameters" value="--tests &quot;LogProppositoryTest.insertTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":timingtask-app:cleanTest" />
-            <option value=":timingtask-app:test" />
+            <option value=":gateways:cleanTest" />
+            <option value=":gateways:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -347,12 +399,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestEnum" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LogRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TestEnum&quot;" />
+        <option name="scriptParameters" value="--tests &quot;LogRepositoryTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -367,12 +419,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestEnum.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LogRepositoryTest.insertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TestEnum.test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;LogRepositoryTest.insertTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -508,20 +560,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.MainTest.testMain" />
-      <item itemvalue="Gradle.MainTest" />
-      <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
-      <item itemvalue="Gradle.TestEnum.test" />
-      <item itemvalue="Gradle.TestEnum" />
       <item itemvalue="Spring Boot.RunApplication" />
+      <item itemvalue="Gradle.Log4jTest.testLog" />
+      <item itemvalue="Gradle.LogProppositoryTest.insertTest" />
+      <item itemvalue="Gradle.LogRepositoryTest.insertTest" />
+      <item itemvalue="Gradle.LogRepositoryTest" />
+      <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestEnum" />
-        <item itemvalue="Gradle.TestEnum.test" />
         <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
-        <item itemvalue="Gradle.MainTest" />
-        <item itemvalue="Gradle.MainTest.testMain" />
+        <item itemvalue="Gradle.LogRepositoryTest" />
+        <item itemvalue="Gradle.LogRepositoryTest.insertTest" />
+        <item itemvalue="Gradle.LogProppositoryTest.insertTest" />
+        <item itemvalue="Gradle.Log4jTest.testLog" />
       </list>
     </recent_temporary>
   </component>
@@ -604,7 +656,8 @@
       <workItem from="1576652816610" duration="11340000" />
       <workItem from="1576717309576" duration="26227000" />
       <workItem from="1576751420430" duration="158000" />
-      <workItem from="1576804095550" duration="20968000" />
+      <workItem from="1576804095550" duration="21109000" />
+      <workItem from="1577149380228" duration="20073000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -704,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576836833338</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="05">
+      <created>1576838549345</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576838549345</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +810,8 @@
     <MESSAGE value="02" />
     <MESSAGE value="03" />
     <MESSAGE value="04" />
-    <option name="LAST_COMMIT_MESSAGE" value="04" />
+    <MESSAGE value="05" />
+    <option name="LAST_COMMIT_MESSAGE" value="05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,8 +6,6 @@ import data.usecase.exception.AccessTokenException;
 import data.usecase.port.AccessTokenGet;
 import me.chanjar.weixin.common.error.WxErrorException;
 
-import java.nio.channels.AcceptPendingException;
-
 public class AccessTokenGateways implements AccessTokenGet {
 
     public String get(SynParameter sp) throws AccessTokenException{

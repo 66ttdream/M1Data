@@ -4,10 +4,7 @@ import data.repository.db.Databases;
 import data.usecase.port.ILogRepository;
 import org.davidmoten.rx.jdbc.Database;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class LogRepository implements ILogRepository {
 
@@ -16,15 +13,25 @@ public class LogRepository implements ILogRepository {
         Database d = Databases.getDb();
         String[] str = map.get("eventid");
         map.remove("eventid");
-        while(map.keySet().iterator().hasNext()){
-            var sql = "ALTER TABLE"+map.get("eventid")+" ADD column_name datatype";
+        Iterator it = map.keySet().iterator();
+        while(it.hasNext()){
+            //System.out.println(it.next().toString());
+            //System.out.println((map.get(it.next()))[0].toString());
+            var key  = it.next();
+            var sql = "ALTER TABLE TESTCONF ADD "+key.toString()+" "+map.get(key)[0].toString();
+            System.out.println(sql);
+            //var sql = "ALTER TABLE TESTCONF ADD column_name datatype";
+            Databases.getDb()
+                    .update(sql)
+                    .complete()
+                    .blockingAwait();
         }
     }
 
     @Override
     public List<String> findConf(String eventid) {
         var sql = "SELECT COLUMN_NAME FROM information_schema.COLUMNS\n" +
-                "WHERE TABLE_NAME = 'tb_name'";
+                "WHERE TABLE_NAME = 'TESTCONF'";
         List<String> list = Databases.getDb()
                 .select(sql)
                 .getAs(String.class)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-24T07:22:14" hostname="7JK9OQ7LAHCDEMY" time="2.245">
+  <properties/>
+  <testcase name="findConfTest()" classname="LogRepositoryTest" time="2.245"/>
+  <system-out><![CDATA[eventid
+uuid
+nigai
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>
