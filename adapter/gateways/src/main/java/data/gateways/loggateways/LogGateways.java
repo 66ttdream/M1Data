@@ -1,20 +1,18 @@
 package data.gateways.loggateways;
 
 import data.usecase.port.ILogGateways;
-
+import org.apache.log4j.Logger;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
 
 public class LogGateways implements ILogGateways {
+    private static Logger logger = Logger.getLogger(LogGateways.class);
     @Override
-    public void printLog(Map<String, String[]> map) {
-        Iterator it = map.keySet().iterator();
-        List l = new ArrayList<String>();
-        while(it.hasNext()){
-            l.add(map.get(it.next())[0]);
+    public void printLog(ArrayList<String> al) {
+        StringBuffer sb = new StringBuffer();
+        for(String str:al){
+            sb.append(str);
+            sb.append("|");
         }
-        System.out.println(l);
+        logger.info(sb);
     }
 }

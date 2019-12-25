@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/Log4jTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/LogRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/database/conf/DBConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/mysql/conf/MysqlConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/conf/TableMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -17,43 +14,43 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/tokengateways/AccessTokenGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/tokengateways/AccessTokenGateways.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/AccessTokenTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/GsonStringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/WxDataTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/test/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/loggateways/LogGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/classes/java/main/data/gateways/loggateways/LogGateways.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/libs/gateways.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/classes/WxDataTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/TEST-WxDataTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/tokengateways/AccessTokenGateways.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/test/java/module-info.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/db/Databases.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/syndata/SynDataRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/data/repository/synparameter/SynPerameterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/build/resources/main/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/build/resources/main/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/loggateways/LogGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/java/data/gateways/loggateways/LogGateways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/gateways/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/gateways/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/classes/java/test/LogRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/classes/java/test/LogRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/LogRepositoryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/classes/LogRepositoryTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-LogRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/TEST-LogRepositoryTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/db/Databases.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/db/Databases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/log/LogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/test/java/LogRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/test/java/LogRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/data/spring/conf/LogSpringConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/data/spring/conf/LogSpringConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/classes/java/main/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/build/libs/conf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/conf/build/libs/conf.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/LogSpringConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/LogSpringConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/conf/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/PrintLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/PrintLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveLogConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/SaveLogConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/ILogGateways.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/ILogGateways.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/ILogRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/classes/java/main/data/usecase/port/ILogRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PrintLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PrintLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/SaveLogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogGateways.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogGateways.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/ILogRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -560,20 +557,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.RunApplication" />
       <item itemvalue="Gradle.Log4jTest.testLog" />
       <item itemvalue="Gradle.LogProppositoryTest.insertTest" />
       <item itemvalue="Gradle.LogRepositoryTest.insertTest" />
       <item itemvalue="Gradle.LogRepositoryTest" />
       <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+      <item itemvalue="Spring Boot.RunApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
+        <item itemvalue="Gradle.Log4jTest.testLog" />
         <item itemvalue="Gradle.LogRepositoryTest" />
         <item itemvalue="Gradle.LogRepositoryTest.insertTest" />
+        <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
         <item itemvalue="Gradle.LogProppositoryTest.insertTest" />
-        <item itemvalue="Gradle.Log4jTest.testLog" />
       </list>
     </recent_temporary>
   </component>
@@ -657,7 +654,8 @@
       <workItem from="1576717309576" duration="26227000" />
       <workItem from="1576751420430" duration="158000" />
       <workItem from="1576804095550" duration="21109000" />
-      <workItem from="1577149380228" duration="20073000" />
+      <workItem from="1577149380228" duration="20234000" />
+      <workItem from="1577235836563" duration="24173000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -764,7 +762,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576838549345</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="06">
+      <created>1577184397341</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577184397342</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +816,8 @@
     <MESSAGE value="03" />
     <MESSAGE value="04" />
     <MESSAGE value="05" />
-    <option name="LAST_COMMIT_MESSAGE" value="05" />
+    <MESSAGE value="06" />
+    <option name="LAST_COMMIT_MESSAGE" value="06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

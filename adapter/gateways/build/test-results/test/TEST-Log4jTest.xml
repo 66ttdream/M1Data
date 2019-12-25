@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Log4jTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-25T04:08:36" hostname="7JK9OQ7LAHCDEMY" time="0.061">
+  <properties/>
+  <testcase name="testLog()" classname="Log4jTest" time="0.061"/>
+  <system-out><![CDATA[2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+2019-12-25 12:08:36 [Log4jTest]-[INFO] sqeq
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

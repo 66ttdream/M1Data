@@ -2,6 +2,7 @@ module Data.repository{
     exports data.repository.synparameter;
     exports data.repository.syndata;
     exports data.repository.log;
+    exports data.repository.db;
     requires Data.usecase;
     requires Data.domain;
     requires com.github.davidmoten.rxjava2.jdbc;

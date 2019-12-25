@@ -5,5 +5,8 @@ module Data.conf {
     requires Data.usecase;
     requires Data.repository;
     requires lombok;
+    requires com.github.davidmoten.rxjava2.jdbc;
+    requires com.github.davidmoten.rxjava2.pool;
+    requires mysql.connector.java;
 
 }

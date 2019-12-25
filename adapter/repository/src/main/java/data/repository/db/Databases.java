@@ -2,7 +2,6 @@ package data.repository.db;
 
 import org.davidmoten.rx.jdbc.Database;
 import org.davidmoten.rx.jdbc.pool.DatabaseType;
-import org.davidmoten.rx.jdbc.pool.Pools;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,16 +11,22 @@ public class Databases {
 
     public static Database getDb() {
         //Database db = Database.from(url, maxPoolSize);
-        Database db = Database.from(Pools
-                .nonBlocking()  // 连接池类型（非阻塞）
-                .url(url)  // 连接地址
+        Database db = Database
+                .nonBlocking()
+                // the jdbc url of the connections to be placed in the pool
+                .url(url)
+                // an unused connection will be closed after thirty minutes
+                .maxIdleTime(30, TimeUnit.MINUTES)
                 .user("root")
                 .password("*u!-w;j*#2&J")
-                .maxIdleTime(30, TimeUnit.MINUTES)  //连接空闲时生存时间
-                .healthCheck(DatabaseType.MYSQL)// 设置数据库类型
+                // connections are checked for healthiness on checkout if the connection
+                // has been idle for at least 5 seconds
+                .healthCheck(DatabaseType.MYSQL)
                 .idleTimeBeforeHealthCheck(5, TimeUnit.SECONDS)
-                .maxPoolSize(20)//连接池最大连接数
-                .build());
+                // if a connection fails creation then retry after 30 seconds
+                // the maximum number of connections in the pool
+                .maxPoolSize(maxPoolSize)
+                .build();
         return db;
     }
 }

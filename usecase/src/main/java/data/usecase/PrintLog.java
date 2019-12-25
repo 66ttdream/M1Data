@@ -6,10 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 
 @Getter
@@ -20,12 +17,12 @@ public class PrintLog {
     private ILogGateways iLogGateways;
     private ILogRepository iLogRepository;
     public void execut(Map<String,String[]> map){
-        List<String> list = iLogRepository.findConf(map.get("eventid")[0]);
-        for(String string:list){
-            if(map.get(string)==null){
-                map.put(string,null);
-            };
+        ArrayList<String> al = iLogRepository.findConf(map.get("eventid")[0]);
+        ArrayList<String> array = new ArrayList<String>();
+        //array.add(map.get("eventid")[0]);
+        for(String string:al){
+            array.add(map.get(string)[0]);
         }
-        iLogGateways.printLog(map);
+        iLogGateways.printLog(array);
     }
 }
