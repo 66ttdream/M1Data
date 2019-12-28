@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 @Getter
 @Setter
@@ -14,9 +15,10 @@ import java.util.Map;
 @AllArgsConstructor
 public class SaveLogConfig {
     private ILogRepository iLogRepository;
-    public ArrayList execut(Map<String,String[]> map){
-        ArrayList<String> l = iLogRepository.findConf(map.get("eventid")[0]);
-        ArrayList al  = new ArrayList();
+    public List execut(Map<String,String[]> map){
+        List<String> l = iLogRepository.findConf(map.get("eventid")[0]);
+        l.remove("eventid");
+        List al  = new ArrayList();
         int i=0;
         for(String str:l){
             if(map.get(str)!=null){
@@ -24,9 +26,11 @@ public class SaveLogConfig {
                 i++;
             }
         }
-        if(i==1){
+        if(i==0){
             iLogRepository.insert(map);
+            return null;
         }
+        System.out.println(al);
         return al;
     }
 

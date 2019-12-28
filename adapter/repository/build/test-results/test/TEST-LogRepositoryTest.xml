@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LogRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-25T02:11:10" hostname="7JK9OQ7LAHCDEMY" time="2.095">
+<testsuite name="LogRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-27T02:09:50" hostname="7JK9OQ7LAHCDEMY" time="2.131">
   <properties/>
-  <testcase name="findConfTest()" classname="LogRepositoryTest" time="2.095"/>
+  <testcase name="findConfTest()" classname="LogRepositoryTest" time="2.131"/>
   <system-out><![CDATA[eventid
-uuid
-nigai
-hahha
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Fri Dec 27 10:09:51 CST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
 ]]></system-err>
 </testsuite>

@@ -11,29 +11,43 @@ public class LogRepository implements ILogRepository {
     @Override
     public void insert(Map<String,String[]> map) {
         Database db = Databases.getDb();
-        String[] str = map.get("eventid");
+        String str = map.get("eventid")[0];
+        //map.remove("eventid",map.get("eventid"));
         StringBuffer sb = new StringBuffer();
         Iterator it = map.keySet().iterator();
         String sql;
-        switch (map.get("eventid")[0]){
-            case "1":
-                map.remove("eventid");
-                while(it.hasNext()){
-                    var key  = it.next();
-                    sb.append(key);
-                    sb.append(" "+map.get(key)[0]);
-                    sb.append(",");
-                    //var sql = "ALTER TABLE TESTCONF ADD column_name datatype";
+        Map<String,String> m = new HashMap<String,String>();
 
+        while (it.hasNext()){
+            String key =  (String)it.next();
+            m.put(key,map.get(key)[0]);
+        }
+        m.remove("eventid",m.get("eventid"));
+        Iterator itr = m.keySet().iterator();
+        switch (str){
+            case "1":
+                System.out.println(map.get("eventid")[0]);
+                while(itr.hasNext()){
+                    String key  = (String)itr.next();
+                    if(key=="eventid") {
+                        itr.remove();
+                        //var sql = "ALTER TABLE TESTCONF ADD column_name datatype";
+                    }else{
+                        sb.append(key);
+                        sb.append(" " + map.get(key)[0]);
+                        sb.append(",");
+                    }
                 }
+                sb.deleteCharAt(sb.length()-1);
                 sql = "ALTER TABLE TESTCONF ADD "+"( "+sb.toString()+" )";
+                System.out.println(sql);
                 db
                 .update(sql)
                 .complete()
                 .blockingAwait();
                 break;
             case "2":
-                map.remove("eventid");
+                //map.remove("eventid");
                 while(it.hasNext()){
                     var key  = it.next();
                     sb.append(key);
@@ -131,7 +145,7 @@ public class LogRepository implements ILogRepository {
     }
 
     @Override
-    public ArrayList<String> findConf(String eventid) {
+    public List<String> findConf(String eventid) {
         Database db = Databases.getDb();
         List<String> list = null;
         String sql = "SELECT COLUMN_NAME FROM information_schema.COLUMNS WHERE TABLE_NAME = ?";
@@ -139,7 +153,7 @@ public class LogRepository implements ILogRepository {
         switch (eventid){
             case "1":
                 list=db.select(sql)
-                    .parameter("RESOURCELOAD")
+                    .parameter("TESTCONF")
                     .getAs(String.class)
                     .toList()
                     .blockingGet();
@@ -187,8 +201,8 @@ public class LogRepository implements ILogRepository {
                     .blockingGet();
                 break;
         }
-        ArrayList<String> al = new ArrayList<String>(list);
-        return al;
+        //ArrayList<String> al = new ArrayList<String>(list);
+        return list;
     }
 
     @Override
@@ -199,12 +213,14 @@ public class LogRepository implements ILogRepository {
          while (it.hasNext()){
              sb.append(map.get(it.next())+",");
          }
+         sb.deleteCharAt(sb.length()-1);
          String sql;
-                 //= "INSERT INTO "+"tablename"+" VALUES( "+"values";
-         String eventid = map.get("evevtid");
+         //= "INSERT INTO "+"tablename"+" VALUES( "+"values";
+         String eventid = map.get("eventid");
          switch (eventid){
              case "1":
-                 sql = "INSERT INTO "+"RESOURCELOAD"+" VALUES( "+sb.toString()+" )";
+                 sql = "INSERT INTO "+"TESTCONF"+" VALUES( "+sb.toString()+" )";
+                 System.out.println(sql);
                          db
                          .update(sql)
                          .complete()

@@ -10,5 +10,7 @@ module Data.repository{
     requires lombok;
     requires io.reactivex.rxjava2;
     requires log4j;
+    //requires mysql.connector.java;
+    requires mysql.connector.java;
 
 }

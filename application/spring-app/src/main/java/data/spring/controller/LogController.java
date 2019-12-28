@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 @RequestMapping(value="/log")
@@ -23,15 +24,16 @@ public class LogController {
         if(ans.get("eventid")==null){
             return "未关联事件：eventid为空";
         }
-        ArrayList al = logcontrol.setConf(ans);
-        if(al==null){
+        List l = logcontrol.setConf(ans);
+        if(l==null){
             return "参数设置成功";
         }else{
-            return "重复参数："+al.toString();
+            return "重复参数："+l.toString();
         }
     }
-    @GetMapping(value = "gether")
+    @GetMapping(value = "/gether")
     public void acceptLog(HttpServletRequest httpRequest){
         Map<String, String[]> ans = httpRequest.getParameterMap();
+        logcontrol.proccess(ans);
     }
 }

@@ -1,5 +1,6 @@
 package data.repository.db;
 
+import io.reactivex.internal.schedulers.IoScheduler;
 import org.davidmoten.rx.jdbc.Database;
 import org.davidmoten.rx.jdbc.pool.DatabaseType;
 
@@ -25,7 +26,7 @@ public class Databases {
                 .idleTimeBeforeHealthCheck(5, TimeUnit.SECONDS)
                 // if a connection fails creation then retry after 30 seconds
                 // the maximum number of connections in the pool
-                .maxPoolSize(maxPoolSize)
+                .maxPoolSize(maxPoolSize).scheduler(new IoScheduler())
                 .build();
         return db;
     }
