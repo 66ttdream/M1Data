@@ -25,5 +25,4 @@ public class InterfaceParameterControl {
     public void cancel(CancleParameterWeb appid) throws NotExistException{
         deleteSynParameter.execut(appid.toAppId());
     }
-
 }
