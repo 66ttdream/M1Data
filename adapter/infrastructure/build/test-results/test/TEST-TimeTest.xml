@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TimeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-09T09:02:06" hostname="7JK9OQ7LAHCDEMY" time="0.133">
+<testsuite name="TimeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-03T07:05:44" hostname="7JK9OQ7LAHCDEMY" time="0.156">
   <properties/>
-  <testcase name="test()" classname="TimeTest" time="0.133"/>
-  <system-out><![CDATA[Sun Dec 08 17:02:06 CST 2019
+  <testcase name="testGetTimeFrame()" classname="TimeTest" time="0.156"/>
+  <system-out><![CDATA[0:00:00 , 3:59:59
+4:00:00 , 7:59:59
+8:00:00 , 11:59:59
+12:00:00 , 15:59:59
+16:00:00 , 19:59:59
+20:00:00 , 23:59:59
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

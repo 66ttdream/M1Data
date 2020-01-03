@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class LogConf {
-    public final LogSpringConf logSpringConf = new LogSpringConf();
+    private final LogSpringConf logSpringConf = new LogSpringConf();
     @Bean
     public SaveLogConfig saveLogConfig(){
         return logSpringConf.getSaveLogConfig();

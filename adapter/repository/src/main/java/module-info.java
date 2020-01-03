@@ -3,6 +3,7 @@ module Data.repository{
     exports data.repository.syndata;
     exports data.repository.log;
     exports data.repository.db;
+    exports data.repository.dataanalyze;
     requires Data.usecase;
     requires Data.domain;
     requires com.github.davidmoten.rxjava2.jdbc;
@@ -12,5 +13,6 @@ module Data.repository{
     requires log4j;
     //requires mysql.connector.java;
     requires mysql.connector.java;
+    requires Data.infrastructure;
 
 }

@@ -3,10 +3,7 @@ package util;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * 时间操作的工具类
@@ -18,12 +15,11 @@ public class Time {
     static Date da = new Date();
     /**
      * 获取时间段内所有按天的时间
-     * @param dBegin开始时间
-     * @param dEnd结束时间
+     * @param dBegin 开始时间
+     * @param dEnd 结束时间
      * @return 开始时间与结束时间段内的所有时间
      * @throws ParseException
      */
-
     public static List<String> findDates(String dBegin, String dEnd) throws ParseException {
         //日期工具类准备
         DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
@@ -73,8 +69,6 @@ public class Time {
     }
     /**
      *
-     * @param 开始时间
-     * @param 结束时间
      * @return 接口POST时间参数的时间集合
      * @throws ParseException
      */
@@ -96,10 +90,31 @@ public class Time {
         return postMuchTime;
 
     }
-    public static long getTomorrowBegin() {    //获取凌晨时间
+
+    /**
+     * 获取凌晨时刻
+     * @return
+     */
+    public static long getTomorrowBegin() {
         long now = System.currentTimeMillis() / 1000l;
         long daySecond = 60 * 60 * 24;
         long dayTime = now - (now + 8 * 3600) % daySecond + 1*daySecond; return dayTime;
     }
+
+    public static Map<String,String> getTimeFrame(int timeSegment){
+        Map<String,String> map = new LinkedHashMap<String,String>();
+        if(timeSegment>24&&24%timeSegment!=0){
+            return null;
+        }else {
+           int timeSegmentLength =  24/timeSegment;
+           for(int i=1;i<=timeSegmentLength;i++){
+               String key = String.valueOf((i-1)*timeSegment)+":00:00";
+               String value = String.valueOf(timeSegment*i-1)+":59:59";
+               map.put(key,value);
+           }
+        }
+        return map;
+    }
+
 
 }

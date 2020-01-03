@@ -2,26 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b986a8e-9a6f-45f5-9f45-04083f3d9d60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/AnalyzeControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/Heatwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/dataanalyze/ContentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/dataanalyze/DataAnalyzeRepositoryOfUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/IAllHeatwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/IHeadwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/AnalyzeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/analyzeentity/HeatworkOfUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindHeatwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindHeatwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IDataAnalyzeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/UserAnalyzeControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/ContentShareNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/modle/ContentShareRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/dataanalyze/ContentAnalyzeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/dataanalyze/UserAnalyzeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/dataanalyze/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/IShareNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/model/IShareRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/DataAnalyzeConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/UserAnalyzeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/src/main/java/data/spring/conf/DataAnalyzeSpringConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/analyzeentity/ShareNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/data/analyzeentity/ShareRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFinNewAddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindActiveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindShareNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindShareRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindUseTimeFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindActiveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindNewAddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindShareNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindShareRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindUseTimeFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IContentAnalyzeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IUserAnalyzeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/InterfaceParameterControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/build/libs/controller.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/AnalyzeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/controller/src/main/java/data/controller/ContentAnalyzeControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/main/util/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/main/util/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/test/TimeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/classes/java/test/TimeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/classes/TimeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/classes/TimeTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/classes/UUIdTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/TEST-TimeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/TEST-TimeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/TEST-UUIdTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/util/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/src/main/java/util/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/infrastructure/src/test/java/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/infrastructure/src/test/java/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/build/libs/repository.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/data/repository/dataanalyze/DataAnalyzeRepositoryOfUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter/repository/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/LogConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/LogConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/conf.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/config/conf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/AnalyzeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/spring-app/src/main/java/data/spring/controller/ContentAnalyzeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/build/libs/usecase.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindHeatwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/ManagerFindHeatwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindHeatwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/PractitionerFindHeatwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usecase/src/main/java/data/usecase/port/IDataAnalyzeRepository.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,19 +153,6 @@
                 <item name="Data" type="f1a62948:ProjectNode" />
                 <item name="timingtask-app" type="2d1252cf:ModuleNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Data" type="f1a62948:ProjectNode" />
-                <item name="timingtask-app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Data" type="f1a62948:ProjectNode" />
-                <item name="timingtask-app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -137,8 +169,8 @@
         <option value="package-info" />
         <option value="module-info" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -329,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ideaprojectdata [bootRun]">
+  <component name="RunManager" selected="Gradle.TimeTest.testGetTimeFrame">
     <configuration name="LogRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -390,19 +422,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SynParameterTest.testfind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TimeTest.testGetTimeFrame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;SynParameterTest.testfind&quot;" />
+        <option name="scriptParameters" value="--tests &quot;TimeTest.testGetTimeFrame&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":repository:cleanTest" />
-            <option value=":repository:test" />
+            <option value=":infrastructure:cleanTest" />
+            <option value=":infrastructure:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -533,18 +565,18 @@
     <list>
       <item itemvalue="Gradle.LogRepositoryTest" />
       <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
-      <item itemvalue="Gradle.SynParameterTest.testfind" />
       <item itemvalue="Gradle.MapTest.testMap" />
       <item itemvalue="Gradle.LogRepositoryTest.findConfTest" />
       <item itemvalue="Spring Boot.RunApplication" />
+      <item itemvalue="Gradle.TimeTest.testGetTimeFrame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TimeTest.testGetTimeFrame" />
         <item itemvalue="Gradle.LogRepositoryTest.findConfTest" />
         <item itemvalue="Gradle.MapTest.testMap" />
         <item itemvalue="Gradle.ideaprojectdata [bootRun]" />
         <item itemvalue="Gradle.LogRepositoryTest" />
-        <item itemvalue="Gradle.SynParameterTest.testfind" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +667,9 @@
       <workItem from="1577432708071" duration="3892000" />
       <workItem from="1577498172669" duration="1441000" />
       <workItem from="1577668538351" duration="2888000" />
-      <workItem from="1577754563598" duration="23693000" />
+      <workItem from="1577754563598" duration="24995000" />
+      <workItem from="1577927859169" duration="24840000" />
+      <workItem from="1578014299312" duration="26329000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1574754179827</created>
@@ -763,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577524477946</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="09">
+      <created>1577785536772</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577785536772</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -813,6 +854,7 @@
     <MESSAGE value="06" />
     <MESSAGE value="07" />
     <MESSAGE value="08" />
-    <option name="LAST_COMMIT_MESSAGE" value="08" />
+    <MESSAGE value="09" />
+    <option name="LAST_COMMIT_MESSAGE" value="09" />
   </component>
 </project>

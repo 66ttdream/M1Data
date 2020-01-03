@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class conf {
-    public  final SpringConf config = new SpringConf();
+    private final SpringConf config = new SpringConf();
 
     @Bean
     public  SaveSynParameter getSaveSynParameter(){
